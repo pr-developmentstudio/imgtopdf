@@ -1,4 +1,4 @@
-Para mi mamita, que no es tan tecnológica — gracias a Dios cuento con algunas herramientas para facilitarle la vida, y esta es una de ellas.
+Para mi mamita, que no es tan tecnológica.
 
 # ImgToPDF
 
