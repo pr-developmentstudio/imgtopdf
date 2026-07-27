@@ -7,6 +7,7 @@ Herramienta web gratuita para convertir imágenes a PDF. Todo el procesamiento o
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Características
 
@@ -79,4 +80,4 @@ Desarrollado por [PR Development Studio](https://github.com/pr-developmentstudio
 
 ## Licencia
 
-Proyecto privado. Todos los derechos reservados.
+Este proyecto es **open source** bajo la licencia [MIT](LICENSE). Puede usarlo, modificarlo y compartirlo libremente, conservando el aviso de copyright.
