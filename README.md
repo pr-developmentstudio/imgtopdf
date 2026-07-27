@@ -55,29 +55,6 @@ npm run build
 npm run preview
 ```
 
-## Despliegue en Vercel
-
-1. Importe el repositorio en [vercel.com](https://vercel.com)
-2. Vercel detectará Vite automáticamente. Confirme estos valores:
-
-| Campo | Valor |
-|-------|-------|
-| Build Command | `npm run build` |
-| Output Directory | `dist` |
-| Install Command | `npm install` |
-
-3. Haga clic en **Deploy**
-
-También puede desplegar con la CLI:
-
-```bash
-npm install -g vercel
-vercel login
-vercel --prod
-```
-
-El archivo `vercel.json` ya incluye la configuración necesaria.
-
 ## Estructura del proyecto
 
 ```
@@ -89,7 +66,6 @@ imgtopdf/
 │   └── styles/         # Estilos globales
 ├── public/             # Favicon e íconos
 ├── index.html
-├── vercel.json
 └── vite.config.ts
 ```
 
