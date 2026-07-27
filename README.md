@@ -1,6 +1,8 @@
+Para mi mamita, que no es tan tecnológica — gracias a Dios cuento con algunas herramientas para facilitarle la vida, y esta es una de ellas.
+
 # ImgToPDF
 
-Herramienta web gratuita para convertir imágenes a PDF. Todo el procesamiento ocurre en el navegador del usuario: **ningún archivo se sube a un servidor**.
+Herramienta web gratuita para convertir imágenes a PDF. Todo el procesamiento ocurre en el navegador: **ningún archivo se sube a un servidor**. Sin registros, sin complicaciones — solo arrastrar, convertir y descargar.
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)
@@ -14,7 +16,7 @@ Herramienta web gratuita para convertir imágenes a PDF. Todo el procesamiento o
 - Vista previa, eliminación individual y limpieza total
 - Animación de bienvenida en la primera visita
 - Animación de progreso al convertir
-- Interfaz en español formal, diseño inspirado en herramientas PDF modernas
+- Interfaz clara en español, pensada para usarse sin conocimientos técnicos
 - 100% privado: los archivos nunca salen del dispositivo
 
 ## Stack tecnológico
@@ -55,13 +57,8 @@ npm run preview
 
 ## Despliegue en Vercel
 
-### Opción 1 — Desde GitHub (recomendado)
-
-1. Suba este repositorio a GitHub
-2. Entre en [vercel.com](https://vercel.com) e inicie sesión
-3. Haga clic en **Add New → Project**
-4. Importe el repositorio
-5. Vercel detectará Vite automáticamente. Use estos valores:
+1. Importe el repositorio en [vercel.com](https://vercel.com)
+2. Vercel detectará Vite automáticamente. Confirme estos valores:
 
 | Campo | Valor |
 |-------|-------|
@@ -69,23 +66,17 @@ npm run preview
 | Output Directory | `dist` |
 | Install Command | `npm install` |
 
-6. Haga clic en **Deploy**
+3. Haga clic en **Deploy**
 
-### Opción 2 — CLI de Vercel
+También puede desplegar con la CLI:
 
 ```bash
 npm install -g vercel
 vercel login
-vercel
-```
-
-Para producción:
-
-```bash
 vercel --prod
 ```
 
-El archivo `vercel.json` ya incluye la configuración necesaria para el proyecto.
+El archivo `vercel.json` ya incluye la configuración necesaria.
 
 ## Estructura del proyecto
 
@@ -96,7 +87,7 @@ imgtopdf/
 │   ├── utils/          # Lógica de imágenes y PDF
 │   ├── types/          # Tipos TypeScript
 │   └── styles/         # Estilos globales
-├── public/             # Archivos estáticos
+├── public/             # Favicon e íconos
 ├── index.html
 ├── vercel.json
 └── vite.config.ts
